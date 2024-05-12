@@ -41,10 +41,10 @@ Construction contains:
   <em>Photo of the real bot</em>
 </p>
 
-## 3. Joystick navigation
-To navigate our bot we used to create a joystick. Here you can see a list of all the components we 
-have in the construction of the joystick:
-* Joystick body (consists of 2 parts: the top and the bottom)
+## 3. Controller navigation
+To navigate our bot we used to create a special controller. Here you can see a list of all the components we 
+have in the construction of the controller:
+* Controller body (consists of 2 parts: the top and the bottom)
 * Sticks to provide the structural strength
 * Arduino Uno
 * Radio module RF24
@@ -55,7 +55,7 @@ have in the construction of the joystick:
 * joystick-module to navigate through the vertiacal axis
 * joystick-module to navigate through the horizontal axis
 
-Here you can see the script of joystick.
+Here you can see the script of controller.
 
 ```C++
 #include <SPI.h>
