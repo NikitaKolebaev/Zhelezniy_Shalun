@@ -7,5 +7,8 @@ the idea behind the design, which was inspired by the automotive industry.
 You can find out that people living in cold areas, like Sibir, are using some 
 special car tracks to navigate through difficult terrain.
 
-![Example of car tracks construction](https://i.ytimg.com/vi/nLp_I8ktWKY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBO8HUqJ5wY3LJRwCXbi1ZuhyUpBQ)
-
+<p align="center">
+  <img src="https://i.ytimg.com/vi/nLp_I8ktWKY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBO8HUqJ5wY3LJRwCXbi1ZuhyUpBQ" alt="Example of car tracks construction">
+  <br>
+  <em>Example of car tracks construction</em>
+</p>
