@@ -32,7 +32,7 @@ Construction contains:
 <p align="center">
   <img src="https://i.ytimg.com/vi/nLp_I8ktWKY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBO8HUqJ5wY3LJRwCXbi1ZuhyUpBQ" alt="Example of car tracks construction">
   <br>
-  <em>CAD assembly in Compas3D</em>
+  <em>CAD assembly in Compass3D</em>
 </p>
 
 <p align="center">
