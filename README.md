@@ -30,7 +30,7 @@ Construction contains:
 * Power supply tumbler
 
 <p align="center">
-  <img src="https://i.ytimg.com/vi/nLp_I8ktWKY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBO8HUqJ5wY3LJRwCXbi1ZuhyUpBQ" alt="Example of car tracks construction">
+  <img src="D:\Никита\Учеба\Программирование\Repositories\Zhelezniy_Shalun\images\cad_assembly.jpg" alt="Example of car tracks construction">
   <br>
   <em>CAD assembly in Compass3D</em>
 </p>
