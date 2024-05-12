@@ -2,6 +2,7 @@
 #include <nRF24L01.h>
 #include <RF24.h>
 #include <Servo.h>
+#include <Adafruit_NeoPixel.h>
 //Приемник (робот)
 
 #define SPEED_1      5 
@@ -10,15 +11,20 @@
 #define SPEED_2      6
 #define DIR_2        7
 
+#define MATRIX_PIN   0
+#define NUMPIXELS 7
+
 RF24 radio(8, 9); // CE, CSN
 Servo servo;
-int data[4];
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, MATRIX_PIN, NEO_GRB + NEO_KHZ800);
+int data[4];    
 int angle;
 // for_back_dir, x_pos, ptmr, tumblrState
 
 void setup() {
   Serial.begin(9600);
   servo.attach(2);
+  pixels.begin();
 
   for (int i = 4; i < 8; i++) {     
     pinMode(i, OUTPUT);
@@ -75,6 +81,19 @@ void loop() {
       analogWrite(SPEED_2, 0);
     }
     //print_info(data[0], angle, data[2], data[3]);
+
+    if (data[3] == 1){
+        for(int i=0; i<NUMPIXELS; i++) {
+          pixels.setPixelColor(i, pixels.Color(0, 150, 0));
+        }
+        pixels.show();
+    }
+    else{
+        for(int i=0; i<NUMPIXELS; i++) {
+          pixels.setPixelColor(i, pixels.Color(0, 0, 0));
+        }
+        pixels.show();
+    }
     delay(2);
   }
 }

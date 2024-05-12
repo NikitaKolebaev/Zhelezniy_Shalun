@@ -27,7 +27,7 @@ void setup(){
     pinMode(xPin, INPUT);
     pinMode(yPin, INPUT);
     //pinMode(buttonPin, INPUT_PULLUP);
-    pinMode(tumblrPin, INPUT_PULLUP);
+    pinMode(tumblrPin, INPUT);
     pinMode(ptmrPin, INPUT);
 }
 void loop() {
