@@ -1,4 +1,4 @@
-# Zhelezniy_Shalun
+# Zhelezniy_Shalun_Oh_my
 ## 1. Preview
 Arduino based bot with radio control. The challenge we had accepted consisted of 
 few reglament instructions. In our project, it was prohibited to use round wheels 
