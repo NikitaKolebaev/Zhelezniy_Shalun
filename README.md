@@ -20,6 +20,7 @@ Construction contains:
 * DC motor x2
 * Wheelbase with gear, 8 rolls x2
 * Track x2
+* Rail
 * Battery pack power supply
 * The crown battery
 * Arduino Uno 
