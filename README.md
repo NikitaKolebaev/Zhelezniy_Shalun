@@ -37,7 +37,7 @@ Construction contains:
 </p>
 
 <p align="center">
-  <img src="https://i.ytimg.com/vi/nLp_I8ktWKY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBO8HUqJ5wY3LJRwCXbi1ZuhyUpBQ" alt="Example of car tracks construction">
+  <img src="https://github.com/NikitaKolebaev/Zhelezniy_Shalun/blob/main/images/bot.jpg" alt="Example of car tracks construction">
   <br>
   <em>Photo of the real bot</em>
 </p>
@@ -56,7 +56,13 @@ have in the construction of the controller:
 * joystick-module to navigate through the vertiacal axis
 * joystick-module to navigate through the horizontal axis
 
-Here you can see the script of controller.
+Here you can see the photo of complited controller and the script to maintain.
+
+<p align="center">
+  <img src="https://github.com/NikitaKolebaev/Zhelezniy_Shalun/blob/main/images/controller.jpg" alt="Controller">
+  <br>
+  <em>Photo of the real bot</em>
+</p>
 
 ```C++
 #include <SPI.h>
