@@ -225,3 +225,22 @@ void print_info(int y, int angle, int ptmr, int tmbl) {
     Serial.println(tmbl);
 }*/
 ```
+
+
+## 5. Награждение
+Данный проект был создан в рамках студенческого соревнования от МФТИ под
+названием "Fab-bots" (февраль-май 2024 г.). Созданная нашей командой модель робота успешно выполнила все
+задания от организаторов и заняла первое место. В качестве приза наша команда получила 3D-принтер 
+Creality Ender-3 V3 SE.
+
+<p align="center">
+  <img src="https://github.com/NikitaKolebaev/Zhelezniy_Shalun/blob/main/images/%D1%84%D0%BE%D1%82%D0%BA%D0%B0_1.jpg" alt="Фото с награждения">
+  <br>
+  <em>Фото с награждения</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/NikitaKolebaev/Zhelezniy_Shalun/blob/main/images/%D1%84%D0%BE%D1%82%D0%BA%D0%B0_2.jpg" alt="Фото с награждения">
+  <br>
+  <em>Фото с награждения</em>
+</p>
